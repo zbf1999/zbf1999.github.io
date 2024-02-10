@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on zbf1999</title>
+    <link>https://zbf1999.github.io/tags/untagged/</link>
+    <description>Recent content in untagged on zbf1999</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Feb 2024 13:58:18 +0800</lastBuildDate>
+    <atom:link href="https://zbf1999.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人简历</title>
+      <link>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</link>
+      <pubDate>Sat, 10 Feb 2024 13:58:18 +0800</pubDate>
+      <guid>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</guid>
+      <description>学校：杭州电子科技大学 24届&#xA;专业：软件工程&#xA;电话：19858190175&#xA;岗位：java后端开发（GO)&#xA;期望：杭州 | 8k&#xA;到岗：随时 | 长期&#xA;zbf1999/zbfapi-backend1 (github.com)&#xA;My New Hugo Site (zbf1999.github.io)&#xA;专业技能 Java知识（集合类、异常处理），能熟练运用Lambda表达式、Hutool、Apache Utils编程 SSM + Spring Boot 开发框架，能够使用Mybatis Plus + MyBatisX自动生成基础CRUD代码 MySQL数据库及库表设计，能够通过创建索引、Explain分析等方式优化性能 常见的业务开发场景：比如API签名认证、用户权限管理、Spring Boot Starter SDK开发等 Nacos 和 RPC框架，能使用Spring Cloud GateWay 实现API网关、访问控制，降级，限流 使用Git, IDEA, ChatGPT, Swagger， 阿里Java编码规范等工具提高开发效率 项目经历 企业在线项目：AI头皮护理 http://tool.lushair.cn&#xA;工作内容：前端页面和整个后端接口开发，和第三方对接ai接口，实地路演。&#xA;公司：杭州丝跃科技有限公司&#xA;时间：2023.6-2023.10.30&#xA;个人项目：API 开放平台 智能BI http://1.94.20.235&#xA;项目介绍 基于React + Spring Boot + Dubbo + GateWay 的Api接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调式，并通过客户端SDK轻松调用接口。&#xA;后端&#xA;根据业务流程，将整个项目后端划分为web系统、模拟接口、公共模块、客户端SDK、API网关这5个子项目，并使用Maven进行多模块依赖管理和打包。 为防止接口被恶意调用，设计API签名认证算法，为用户分配唯一ak/ sk以鉴权，保障调用的安全性、可溯源性 为解决开发者调用成本过高的问题（须自己使用HTTP+封装签名去调用接口），基于 Spring Boot Starter开发了客户端SDK，一行代码即可调用接口，提高开发体验。 选用Spring Cloud GateWay作为API网关，实现了路由转发、访问控制、流量染色，并集中处理签名校验、请求参数校验、接口调用统计等业务逻辑，提高安全性的同时，便于系统开发维护。 为解决多个子系统内代码大量重复的问题，抽象模型层和业务层代码为公共模块，并使用Dubbo RPC框架实现子系统间的高性能接口调用，大幅减少重复代码。 个人评价 有较强的文档阅读能力， 问题解决能力。</description>
+    </item>
+  </channel>
+</rss>

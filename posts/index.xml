@@ -1,19 +1,156 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>https://zbf1999.github.io/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 10 Feb 2024 02:33:50 +0800</lastBuildDate>
-    <atom:link href="https://zbf1999.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://zbf1999.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 10 Feb 2024 02:33:50 +0800</pubDate>
-      <guid>https://zbf1999.github.io/posts/my-first-post/</guid>
-      <description>使用 Hugo 构建一个简约的个人博客是一个非常好的选择，因为 Hugo 是一个快速且易于使用的静态网站生成器。以下是使用 Hugo 从零开始构建个人博客的详细步骤：&#xA;第一步：安装 Hugo Windows：可以通过 Chocolatey 安装，使用命令 choco install hugo -confirm。 macOS：可以通过 Homebrew 安装，使用命令 brew install hugo。 Linux：大多数 Linux 发行版都可以通过包管理器安装 Hugo。例如，Ubuntu 用户可以使用 sudo apt-get install hugo。 更多安装选项和指南，请参考 Hugo 安装指南。&#xA;第二步：创建新站点 在您选择的目录中打开终端或命令提示符，运行以下命令来创建一个新的站点：&#xA;hugo new site myblog 这将在 myblog 文件夹中创建一个新的 Hugo 站点结构。&#xA;第三步：选择并安装主题 访问 Hugo 主题目录，选择一个您喜欢的简约主题。 按照主题的安装说明进行操作。通常，这涉及到将主题的 Git 仓库克隆到您的站点的 themes 目录下，并在站点的配置文件中设置主题。例如： cd myblog git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 更新您的站点配置（config.toml 在站点根目录下）来使用该主题： theme = &amp;#34;ananke&amp;#34; 第四步：添加内容 创建新的文章： hugo new posts/my-first-post.</description>
-    </item>
-  </channel>
+    <channel>
+        <title>Posts on zbf1999</title>
+        <link>https://zbf1999.github.io/posts/</link>
+        <description>Recent content in Posts on zbf1999</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Sat, 10 Feb 2024 13:58:18 +0800</lastBuildDate>
+        <atom:link href="https://zbf1999.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>个人简历</title>
+            <link>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</link>
+            <pubDate>Sat, 10 Feb 2024 13:58:18 +0800</pubDate>
+            
+            <guid>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</guid>
+            <description>学校：杭州电子科技大学 24届
+专业：软件工程
+电话：19858190175
+岗位：java后端开发（GO)
+期望：杭州 | 8k
+到岗：随时 | 长期
+zbf1999/zbfapi-backend1 (github.com)
+My New Hugo Site (zbf1999.github.io)
+专业技能 Java知识（集合类、异常处理），能熟练运用Lambda表达式、Hutool、Apache Utils编程 SSM + Spring Boot 开发框架，能够使用Mybatis Plus + MyBatisX自动生成基础CRUD代码 MySQL数据库及库表设计，能够通过创建索引、Explain分析等方式优化性能 常见的业务开发场景：比如API签名认证、用户权限管理、Spring Boot Starter SDK开发等 Nacos 和 RPC框架，能使用Spring Cloud GateWay 实现API网关、访问控制，降级，限流 使用Git, IDEA, ChatGPT, Swagger， 阿里Java编码规范等工具提高开发效率 项目经历 企业在线项目：AI头皮护理 http://tool.lushair.cn
+工作内容：前端页面和整个后端接口开发，和第三方对接ai接口，实地路演。
+公司：杭州丝跃科技有限公司
+时间：2023.6-2023.10.30
+个人项目：API 开放平台 智能BI http://1.94.20.235
+项目介绍 基于React + Spring Boot + Dubbo + GateWay 的Api接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调式，并通过客户端SDK轻松调用接口。
+后端
+根据业务流程，将整个项目后端划分为web系统、模拟接口、公共模块、客户端SDK、API网关这5个子项目，并使用Maven进行多模块依赖管理和打包。 为防止接口被恶意调用，设计API签名认证算法，为用户分配唯一ak/ sk以鉴权，保障调用的安全性、可溯源性 为解决开发者调用成本过高的问题（须自己使用HTTP+封装签名去调用接口），基于 Spring Boot Starter开发了客户端SDK，一行代码即可调用接口，提高开发体验。 选用Spring Cloud GateWay作为API网关，实现了路由转发、访问控制、流量染色，并集中处理签名校验、请求参数校验、接口调用统计等业务逻辑，提高安全性的同时，便于系统开发维护。 为解决多个子系统内代码大量重复的问题，抽象模型层和业务层代码为公共模块，并使用Dubbo RPC框架实现子系统间的高性能接口调用，大幅减少重复代码。 个人评价 有较强的文档阅读能力， 问题解决能力。</description>
+            <content type="html"><![CDATA[<p>学校：杭州电子科技大学 24届</p>
+<p>专业：软件工程</p>
+<p>电话：19858190175</p>
+<p>岗位：java后端开发（GO)</p>
+<p>期望：杭州  |  8k</p>
+<p>到岗：随时  | 长期</p>
+<p><img src="https://secure2.wostatic.cn/static/sTVh2jrRVmB4aW4Kos8kc4/z1.jpg?auth_key=1707544674-rZfRntEagQLPGSHcMGRPeq-0-dabd1876843402ddb0f5692d350c60a6" alt=""></p>
+<p><a href="https://github.com/zbf1999/zbfapi-backend1">zbf1999/zbfapi-backend1 (github.com)</a></p>
+<p><a href="https://zbf1999.github.io/">My New Hugo Site (zbf1999.github.io)</a></p>
+<hr>
+<h2 id="专业技能">专业技能</h2>
+<ol>
+<li>Java知识（集合类、异常处理），能熟练运用Lambda表达式、Hutool、Apache Utils编程</li>
+<li>SSM + Spring Boot 开发框架，能够使用Mybatis Plus + MyBatisX自动生成基础CRUD代码</li>
+<li>MySQL数据库及库表设计，能够通过创建索引、Explain分析等方式优化性能</li>
+<li>常见的业务开发场景：比如API签名认证、用户权限管理、Spring Boot Starter SDK开发等</li>
+<li>Nacos 和 RPC框架，能使用Spring Cloud GateWay 实现API网关、访问控制，降级，限流</li>
+<li>使用Git, IDEA, ChatGPT, Swagger， 阿里Java编码规范等工具提高开发效率</li>
+</ol>
+<hr>
+<h2 id="项目经历">项目经历</h2>
+<h3 id="企业在线项目ai头皮护理">企业在线项目：AI头皮护理</h3>
+<p><a href="http://tool.lushair.cn">http://tool.lushair.cn</a></p>
+<p><strong>工作内容</strong>：前端页面和整个后端接口开发，和第三方对接ai接口，实地路演。</p>
+<p><strong>公司</strong>：杭州丝跃科技有限公司</p>
+<p><strong>时间</strong>：2023.6-2023.10.30</p>
+<hr>
+<h3 id="个人项目api-开放平台-智能bi">个人项目：<strong>API 开放平台</strong> 智能BI</h3>
+<p><img src="https://secure2.wostatic.cn/static/ivFu2aCR2pne3F2AdKxfWa/image.png?auth_key=1707544674-xaMwjzocRo1HxL3fRFK2C5-0-31e053686970fe4a26e51ae3d39958e2" alt="api网关"></p>
+<p>http://1.94.20.235</p>
+<p><img src="https://secure2.wostatic.cn/static/nTD4egwiuSWnxa86ntA9vb/image.png?auth_key=1707544674-61HzzwwswDhtt2bNRCJDbS-0-3b147c840df7067211579243b30bea4f" alt="消息队列"></p>
+<h3 id="项目介绍">项目介绍</h3>
+<blockquote>
+<p>基于React + Spring Boot + Dubbo + GateWay 的Api接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调式，并通过客户端SDK轻松调用接口。</p>
+</blockquote>
+<p>后端</p>
+<ol>
+<li>根据业务流程，将整个项目后端划分为web系统、模拟接口、公共模块、客户端SDK、API网关这5个子项目，并使用Maven进行多模块依赖管理和打包。</li>
+<li>为防止接口被恶意调用，设计API签名认证算法，为用户分配唯一ak/ sk以鉴权，保障调用的安全性、可溯源性</li>
+<li>为解决开发者调用成本过高的问题（须自己使用HTTP+封装签名去调用接口），基于 Spring Boot Starter开发了客户端SDK，一行代码即可调用接口，提高开发体验。</li>
+<li>选用Spring Cloud GateWay作为API网关，实现了路由转发、访问控制、流量染色，并集中处理签名校验、请求参数校验、接口调用统计等业务逻辑，提高安全性的同时，便于系统开发维护。</li>
+<li>为解决多个子系统内代码大量重复的问题，抽象模型层和业务层代码为公共模块，并使用Dubbo RPC框架实现子系统间的高性能接口调用，大幅减少重复代码。</li>
+</ol>
+<hr>
+<p><img src="https://secure2.wostatic.cn/static/39hWNYbhtyqtSSde3TmBYP/image.png?auth_key=1707544674-tHRW2VXapcpjxF3giApYYz-0-a4da0681b76b2e090f386616a258ffa1" alt=""></p>
+<p><img src="https://secure2.wostatic.cn/static/9GgxPj59CkqS4B1YhMdcM6/image.png?auth_key=1707544674-4iftiwgTNJJFF33yn5kKD3-0-4eda08d6e389a2b02bba69933664b3be" alt=""></p>
+<h2 id="个人评价">个人评价</h2>
+<p>有较强的文档阅读能力， 问题解决能力。</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My First Post</title>
+            <link>https://zbf1999.github.io/posts/my-first-post/</link>
+            <pubDate>Sat, 10 Feb 2024 02:33:50 +0800</pubDate>
+            
+            <guid>https://zbf1999.github.io/posts/my-first-post/</guid>
+            <description>使用 Hugo 构建一个简约的个人博客是一个非常好的选择，因为 Hugo 是一个快速且易于使用的静态网站生成器。以下是使用 Hugo 从零开始构建个人博客的详细步骤：
+第一步：安装 Hugo Windows：可以通过 Chocolatey 安装，使用命令 choco install hugo -confirm。 macOS：可以通过 Homebrew 安装，使用命令 brew install hugo。 Linux：大多数 Linux 发行版都可以通过包管理器安装 Hugo。例如，Ubuntu 用户可以使用 sudo apt-get install hugo。 更多安装选项和指南，请参考 Hugo 安装指南。
+第二步：创建新站点 在您选择的目录中打开终端或命令提示符，运行以下命令来创建一个新的站点：
+hugo new site myblog 这将在 myblog 文件夹中创建一个新的 Hugo 站点结构。
+第三步：选择并安装主题 访问 Hugo 主题目录，选择一个您喜欢的简约主题。 按照主题的安装说明进行操作。通常，这涉及到将主题的 Git 仓库克隆到您的站点的 themes 目录下，并在站点的配置文件中设置主题。例如： cd myblog git init git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke 更新您的站点配置（config.toml 在站点根目录下）来使用该主题： theme = &amp;#34;ananke&amp;#34; 第四步：添加内容 创建新的文章： hugo new posts/my-first-post.</description>
+            <content type="html"><![CDATA[<p>使用 Hugo 构建一个简约的个人博客是一个非常好的选择，因为 Hugo 是一个快速且易于使用的静态网站生成器。以下是使用 Hugo 从零开始构建个人博客的详细步骤：</p>
+<h3 id="第一步安装-hugo">第一步：安装 Hugo</h3>
+<ul>
+<li><strong>Windows</strong>：可以通过 <a href="https://chocolatey.org/">Chocolatey</a> 安装，使用命令 <code>choco install hugo -confirm</code>。</li>
+<li><strong>macOS</strong>：可以通过 <a href="https://brew.sh/">Homebrew</a> 安装，使用命令 <code>brew install hugo</code>。</li>
+<li><strong>Linux</strong>：大多数 Linux 发行版都可以通过包管理器安装 Hugo。例如，Ubuntu 用户可以使用 <code>sudo apt-get install hugo</code>。</li>
+</ul>
+<p>更多安装选项和指南，请参考 <a href="https://gohugo.io/getting-started/installing/">Hugo 安装指南</a>。</p>
+<h3 id="第二步创建新站点">第二步：创建新站点</h3>
+<p>在您选择的目录中打开终端或命令提示符，运行以下命令来创建一个新的站点：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>hugo new site myblog
+</span></span></code></pre></div><p>这将在 <code>myblog</code> 文件夹中创建一个新的 Hugo 站点结构。</p>
+<h3 id="第三步选择并安装主题">第三步：选择并安装主题</h3>
+<ol>
+<li>访问 <a href="https://themes.gohugo.io/">Hugo 主题目录</a>，选择一个您喜欢的简约主题。</li>
+<li>按照主题的安装说明进行操作。通常，这涉及到将主题的 Git 仓库克隆到您的站点的 <code>themes</code> 目录下，并在站点的配置文件中设置主题。例如：</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>cd myblog
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</span></span></code></pre></div><ul>
+<li>更新您的站点配置（<code>config.toml</code> 在站点根目录下）来使用该主题：</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Toml" data-lang="Toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;ananke&#34;</span>
+</span></span></code></pre></div><h3 id="第四步添加内容">第四步：添加内容</h3>
+<ul>
+<li>创建新的文章：</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><p>这将在 <code>content/posts</code> 目录下创建一个新的 Markdown 文件。您可以使用 Markdown 编辑器编辑这个文件，添加文章内容。</p>
+<ul>
+<li>编辑文件，填入内容。Hugo 使用前置元数据（front matter）来存储关于页面或文章的信息。例如：</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Markdown" data-lang="Markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;我的第一篇文章&#34;
+</span></span><span style="display:flex;"><span>date: 2024-02-07T12:00:00+02:00
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>这里是文章内容...
+</span></span></code></pre></div><h3 id="第五步本地预览网站">第五步：本地预览网站</h3>
+<p>在站点根目录下运行：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>这将启动 Hugo 服务器，您可以通过访问 <code>http://localhost:1313</code> 在浏览器中预览您的站点。</p>
+<h3 id="第六步构建和部署">第六步：构建和部署</h3>
+<ul>
+<li>当您的站点准备好去线上时，运行：</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>这将在 <code>public</code> 目录下生成您的站点静态文件。</p>
+<ul>
+<li>将 <code>public</code> 目录下的内容部署到您选择的静态网站托管服务，如 GitHub Pages、Netlify 或 Vercel。</li>
+</ul>
+<h3 id="总结">总结</h3>
+<p>Hugo 使得构建和部署个人博客变得非常简单快捷。通过选择适合的主题和定期添加内容，您可以轻松维护和更新您的博客。</p>
+<p><img src="https://secure2.wostatic.cn/static/r8ofANH8oc3TxsPXZRNB2h/image.png?auth_key=1707503020-r6WF2vDvD2SVRgmDrHciN7-0-7b3c4a6cc39e27eea4a8f92a9958aab9" alt=""></p>
+<p><img src="https://secure2.wostatic.cn/static/dF5P4geTuqYGX3bNvzWrgN/image.png?auth_key=1707503020-d7GeaAJSAbMXZCGcmBYKiK-0-99ab6f29fc5701f77c2a5b187fe3ba22" alt=""></p>
+]]></content>
+        </item>
+        
+    </channel>
 </rss>
