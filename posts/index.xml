@@ -5,81 +5,8 @@
         <description>Recent content in Posts on zbf1999</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sat, 10 Feb 2024 13:58:18 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 10 Feb 2024 02:33:50 +0800</lastBuildDate>
         <atom:link href="https://zbf1999.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>个人简历</title>
-            <link>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</link>
-            <pubDate>Sat, 10 Feb 2024 13:58:18 +0800</pubDate>
-            
-            <guid>https://zbf1999.github.io/posts/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</guid>
-            <description>学校：杭州电子科技大学 24届
-专业：软件工程
-电话：19858190175
-岗位：java后端开发（GO)
-期望：杭州 | 8k
-到岗：随时 | 长期
-zbf1999/zbfapi-backend1 (github.com)
-My New Hugo Site (zbf1999.github.io)
-专业技能 Java知识（集合类、异常处理），能熟练运用Lambda表达式、Hutool、Apache Utils编程 SSM + Spring Boot 开发框架，能够使用Mybatis Plus + MyBatisX自动生成基础CRUD代码 MySQL数据库及库表设计，能够通过创建索引、Explain分析等方式优化性能 常见的业务开发场景：比如API签名认证、用户权限管理、Spring Boot Starter SDK开发等 Nacos 和 RPC框架，能使用Spring Cloud GateWay 实现API网关、访问控制，降级，限流 使用Git, IDEA, ChatGPT, Swagger， 阿里Java编码规范等工具提高开发效率 项目经历 企业在线项目：AI头皮护理 http://tool.lushair.cn
-工作内容：前端页面和整个后端接口开发，和第三方对接ai接口，实地路演。
-公司：杭州丝跃科技有限公司
-时间：2023.6-2023.10.30
-个人项目：API 开放平台 智能BI http://1.94.20.235
-项目介绍 基于React + Spring Boot + Dubbo + GateWay 的Api接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调式，并通过客户端SDK轻松调用接口。
-后端
-根据业务流程，将整个项目后端划分为web系统、模拟接口、公共模块、客户端SDK、API网关这5个子项目，并使用Maven进行多模块依赖管理和打包。 为防止接口被恶意调用，设计API签名认证算法，为用户分配唯一ak/ sk以鉴权，保障调用的安全性、可溯源性 为解决开发者调用成本过高的问题（须自己使用HTTP+封装签名去调用接口），基于 Spring Boot Starter开发了客户端SDK，一行代码即可调用接口，提高开发体验。 选用Spring Cloud GateWay作为API网关，实现了路由转发、访问控制、流量染色，并集中处理签名校验、请求参数校验、接口调用统计等业务逻辑，提高安全性的同时，便于系统开发维护。 为解决多个子系统内代码大量重复的问题，抽象模型层和业务层代码为公共模块，并使用Dubbo RPC框架实现子系统间的高性能接口调用，大幅减少重复代码。 个人评价 有较强的文档阅读能力， 问题解决能力。</description>
-            <content type="html"><![CDATA[<p>学校：杭州电子科技大学 24届</p>
-<p>专业：软件工程</p>
-<p>电话：19858190175</p>
-<p>岗位：java后端开发（GO)</p>
-<p>期望：杭州  |  8k</p>
-<p>到岗：随时  | 长期</p>
-<p><img src="https://secure2.wostatic.cn/static/sTVh2jrRVmB4aW4Kos8kc4/z1.jpg?auth_key=1707544674-rZfRntEagQLPGSHcMGRPeq-0-dabd1876843402ddb0f5692d350c60a6" alt=""></p>
-<p><a href="https://github.com/zbf1999/zbfapi-backend1">zbf1999/zbfapi-backend1 (github.com)</a></p>
-<p><a href="https://zbf1999.github.io/">My New Hugo Site (zbf1999.github.io)</a></p>
-<hr>
-<h2 id="专业技能">专业技能</h2>
-<ol>
-<li>Java知识（集合类、异常处理），能熟练运用Lambda表达式、Hutool、Apache Utils编程</li>
-<li>SSM + Spring Boot 开发框架，能够使用Mybatis Plus + MyBatisX自动生成基础CRUD代码</li>
-<li>MySQL数据库及库表设计，能够通过创建索引、Explain分析等方式优化性能</li>
-<li>常见的业务开发场景：比如API签名认证、用户权限管理、Spring Boot Starter SDK开发等</li>
-<li>Nacos 和 RPC框架，能使用Spring Cloud GateWay 实现API网关、访问控制，降级，限流</li>
-<li>使用Git, IDEA, ChatGPT, Swagger， 阿里Java编码规范等工具提高开发效率</li>
-</ol>
-<hr>
-<h2 id="项目经历">项目经历</h2>
-<h3 id="企业在线项目ai头皮护理">企业在线项目：AI头皮护理</h3>
-<p><a href="http://tool.lushair.cn">http://tool.lushair.cn</a></p>
-<p><strong>工作内容</strong>：前端页面和整个后端接口开发，和第三方对接ai接口，实地路演。</p>
-<p><strong>公司</strong>：杭州丝跃科技有限公司</p>
-<p><strong>时间</strong>：2023.6-2023.10.30</p>
-<hr>
-<h3 id="个人项目api-开放平台-智能bi">个人项目：<strong>API 开放平台</strong> 智能BI</h3>
-<p><img src="https://secure2.wostatic.cn/static/ivFu2aCR2pne3F2AdKxfWa/image.png?auth_key=1707544674-xaMwjzocRo1HxL3fRFK2C5-0-31e053686970fe4a26e51ae3d39958e2" alt="api网关"></p>
-<p>http://1.94.20.235</p>
-<p><img src="https://secure2.wostatic.cn/static/nTD4egwiuSWnxa86ntA9vb/image.png?auth_key=1707544674-61HzzwwswDhtt2bNRCJDbS-0-3b147c840df7067211579243b30bea4f" alt="消息队列"></p>
-<h3 id="项目介绍">项目介绍</h3>
-<blockquote>
-<p>基于React + Spring Boot + Dubbo + GateWay 的Api接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调式，并通过客户端SDK轻松调用接口。</p>
-</blockquote>
-<p>后端</p>
-<ol>
-<li>根据业务流程，将整个项目后端划分为web系统、模拟接口、公共模块、客户端SDK、API网关这5个子项目，并使用Maven进行多模块依赖管理和打包。</li>
-<li>为防止接口被恶意调用，设计API签名认证算法，为用户分配唯一ak/ sk以鉴权，保障调用的安全性、可溯源性</li>
-<li>为解决开发者调用成本过高的问题（须自己使用HTTP+封装签名去调用接口），基于 Spring Boot Starter开发了客户端SDK，一行代码即可调用接口，提高开发体验。</li>
-<li>选用Spring Cloud GateWay作为API网关，实现了路由转发、访问控制、流量染色，并集中处理签名校验、请求参数校验、接口调用统计等业务逻辑，提高安全性的同时，便于系统开发维护。</li>
-<li>为解决多个子系统内代码大量重复的问题，抽象模型层和业务层代码为公共模块，并使用Dubbo RPC框架实现子系统间的高性能接口调用，大幅减少重复代码。</li>
-</ol>
-<hr>
-<p><img src="https://secure2.wostatic.cn/static/39hWNYbhtyqtSSde3TmBYP/image.png?auth_key=1707544674-tHRW2VXapcpjxF3giApYYz-0-a4da0681b76b2e090f386616a258ffa1" alt=""></p>
-<p><img src="https://secure2.wostatic.cn/static/9GgxPj59CkqS4B1YhMdcM6/image.png?auth_key=1707544674-4iftiwgTNJJFF33yn5kKD3-0-4eda08d6e389a2b02bba69933664b3be" alt=""></p>
-<h2 id="个人评价">个人评价</h2>
-<p>有较强的文档阅读能力， 问题解决能力。</p>
-]]></content>
-        </item>
         
         <item>
             <title>My First Post</title>
